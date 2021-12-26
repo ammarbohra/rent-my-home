@@ -1,0 +1,41 @@
+.line {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    background-size: 102% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    &-flip {
+        transform: translate(-50%, -50%) scaleX(-1);
+    }
+}
+.popular {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.circle {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+}

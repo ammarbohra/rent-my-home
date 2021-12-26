@@ -1,0 +1,18 @@
+.heading-line::after {
+    content: "";
+    background: #79ed43;
+    width: 12rem;
+    position: absolute;
+    height: 8px;
+    bottom: -16px;
+    left: 0;
+}
+
+.back-img {
+    padding-bottom: 820px !important;
+}
+@media screen and (min-width: 768px) {
+    .back-img {
+        padding-bottom: 400px !important;
+    }
+}

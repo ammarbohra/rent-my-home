@@ -1,0 +1,43 @@
+.fw-medium {
+    font-weight: 500;
+}
+.fw-semibold {
+    font-weight: 600;
+}
+.object-cover {
+    object-fit: cover;
+}
+.ff-ma {
+    font-family: "Montserrat Alternates";
+}
+.square {
+    aspect-ratio: 1;
+}
+.rounded-lg {
+    border-radius: 2rem;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pos-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section-heading {
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+}
+.section-padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+@media (min-width: 992px) {
+    .section-padding {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
