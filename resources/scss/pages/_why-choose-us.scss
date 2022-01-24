@@ -1,0 +1,29 @@
+.choose-card{
+    position: relative;
+    // height: 35rem; 
+    background-size: cover; 
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: top;
+    background-position: center;
+    color: white;
+    height: 100%;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(33, 114, 98, .8);
+        z-index: 1;
+        border-radius: 2rem;
+    }
+}   
+
+.card-heading{
+    z-index: 2;
+    display: flex;
+    border-bottom: .5rem solid #79ED43;
+    padding-bottom: 1rem;   
+}

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light shadow py-3">
+<nav class="navbar navbar-expand-xl navbar-light shadow py-3">
   <div class="container">
     <a class="navbar-brand" href="/">
         <img src="./img/rmh.svg" style="max-width: 230px;" alt="/">
@@ -9,7 +9,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="ms-auto ps-0 mb-lg-0">
+      <ul class="ms-auto ps-0 mb-xl-0">
         <div class="navbar-nav mb-3">
           <li class="nav-item">
             <a class="nav-link {{ Request::is('/') ? 'active' : '' }} mb-2" href="/">Home</a>
@@ -21,32 +21,32 @@
             <a class="nav-link {{ Request::is('how-it-works') ? 'active' : '' }} mb-2" href="how-it-works">How it works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mb-2" href="#">Properties for Rent</a>
+            <a class="nav-link {{ Request::is('properties-for-rent') ? 'active' : ''}} mb-2" href="properties-for-rent">Properties for Rent</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mb-2" href="#">Landlord services</a>
+            <a class="nav-link {{ Request::is('landlord-services') ? 'active' : ''}} mb-2" href="landlord-services">Landlord services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mb-2" href="#">Landlord advice</a>
+            <a class="nav-link {{ Request::is('landlord-advice') ? 'active' : ''}} mb-2" href="landlord-advice">Landlord advice</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mb-2" href="#">Why choose us</a>
+            <a class="nav-link {{ Request::is('why-choose-us') ? 'active' : '' }} mb-2" href="why-choose-us">Why choose us</a>
           </li>
         </div>
         <div class="row gy-4 navbar-nav">
-          <div class="col-lg-auto">
-            <button type="button" class="btn btn-primary w-100 px-lg-3">Thinking of Selling?</button>
+          <div class="col-xl-auto">
+            <a href="http://127.0.0.1:8080/thinking-of-selling" class="btn btn-primary w-100 px-lg-3">Thinking of Selling?</a>
           </div>
-          <div class="col-lg-auto">
-            <button type="button" class="btn btn-primary w-100 px-lg-3">Request a valuation</button>
+          <div class="col-xl-auto">
+            <a href="http://127.0.0.1:8080/request-a-valuation" class="btn btn-primary w-100 px-lg-3">Request a valuation</a>
           </div>
-          <div class="col-lg-auto me-auto">
+          <div class="col-xl-auto me-xl-auto">
             <button type="button" class="btn btn-outline-primary w-100 px-lg-3">
-              <i class="fas fa-phone-alt"></i> 12345678901234
+              <i class="fas fa-phone"></i> 12345678901234
             </button>
           </div>
-          <div class=" d-inline-blockms-lg-auto col-lg-auto">
-            <button type="button" class="btn btn-primary w-100 px-lg-3">Login or Register</button>
+          <div class="col-xl-auto">
+            <a href="http://127.0.0.1:8080/login-or-register" class="btn btn-primary w-100 px-lg-3">Login or Register</a>
           </div>
         </div>
       </ul>

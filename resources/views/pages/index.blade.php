@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <img src="./img/birgit-loit-sBjIRDC0H5Q-unsplash.jpg" alt="" class="w-100 h-100 object-cover rounded-lg" style="min-height: 500px;">
+                    <img src="./img/birgit-loit-sBjIRDC0H5Q-unsplash-1.jpg" alt="" class="w-100 h-100 object-cover rounded-lg" style="min-height: 500px;">
                 </div>
             </div>
         </div>

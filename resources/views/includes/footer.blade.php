@@ -6,21 +6,21 @@
                     </div>
                     <div class="col-lg-auto d-flex flex-column">
                         <h4 class="mb-4">Get Started</h4>
-                        <button class="btn btn-primary mb-3 mx-auto" style="width: 240px;">Properties For Rent</button>
-                        <button class="btn btn-primary mb-3 mx-auto" style="width: 240px;">Free Valuation</button>
+                        <a href="http://127.0.0.1:8000/properties-for-rent"><button class="btn btn-primary mb-3 mx-auto" style="width: 240px;">Properties For Rent</button></a>
+                        <a href="http://127.0.0.1:8000/request-a-valuation"><button class="btn btn-primary mb-3 mx-auto" style="width: 240px;">Free Valuation</button></a>
                         <button class="btn btn-outline-primary mx-auto" style="width: 240px;">Refer a Friend</button>
                     </div>
                     <div class="col-lg-auto d-flex flex-column">
                         <h4 class="mb-4">Category</h4>
-                        <a href="#" class="fw-bold text-decoration-none text-dark mb-3 mb-lg-4">Blog</a>
-                        <a href="#" class="fw-bold text-decoration-none text-dark mb-3 mb-lg-4">FAQ's</a>
-                        <a href="#" class="fw-bold text-decoration-none text-dark">Virtual Walkthrough</a>
+                        <a href="blog" class="fw-bold text-decoration-none text-dark {{ Request::is('blog') ? 'active' : '' }} mb-3 mb-lg-4">Blog</a>
+                        <a href="faqs" class="fw-bold text-decoration-none text-dark {{ Request::is('faqs') ? 'active' : '' }} mb-3 mb-lg-4">FAQ's</a>
+                        <a href="virtual-walkthrough" class="fw-bold text-decoration-none text-dark {{ Request::is('virtual-walkthrough') ? 'active' : '' }}">Virtual Walkthrough</a>
                     </div>
                     <div class="col-lg-auto d-flex flex-column">
                         <h4 class="mb-4">Company</h4>
-                        <a href="#" class="fw-bold text-decoration-none text-dark mb-3 mb-lg-4">About us</a>
-                        <a href="#" class="fw-bold text-decoration-none text-dark mb-3 mb-lg-4">Customer reviews</a>
-                        <a href="#" class="fw-bold text-decoration-none text-dark">Contact us</a>
+                        <a href="about-us" class="fw-bold text-decoration-none text-dark {{ Request::is('about-us') ? 'active' : '' }} mb-3 mb-lg-4">About us</a>
+                        <a href="customer-reviews" class="fw-bold text-decoration-none text-dark {{ Request::is('customer-reviews') ? 'active' : '' }} mb-3 mb-lg-4">Customer reviews</a>
+                        <a href="contact-us" class="fw-bold text-decoration-none text-dark {{ Request::is('contact-us') ? 'active' : '' }}">Contact us</a>
                     </div>
                     <div class="col-lg-auto">
                         <h4 class="mb-4">Follow us</h4>

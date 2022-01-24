@@ -12,3 +12,11 @@
 .navbar .nav-link.active {
     border-bottom: 4px solid #79ed43;
 }
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .navbar {
+        .nav-link, .btn {
+            font-size: 0.875rem;
+        }
+    }
+}

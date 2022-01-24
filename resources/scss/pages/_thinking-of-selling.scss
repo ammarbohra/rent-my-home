@@ -1,0 +1,16 @@
+.clipper{
+    width: 100%;
+    height: 60vh;
+    line-height: 3rem;
+    color: #3A3A3A;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    background-color: rgba(179,225,232,0.5);
+}
+
+.brand{
+    display: grid;
+    place-content: center;
+}

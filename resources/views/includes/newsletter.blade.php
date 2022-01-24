@@ -16,7 +16,7 @@
                         </div>
                         <div class="col-6">
                             <div class="p-2 pe-4">
-                                <img class="w-100 object-cover square rounded-3" src="./img/birgit-loit-sBjIRDC0H5Q-unsplash.jpg" alt="/">
+                                <img class="w-100 object-cover square rounded-3" src="./img/birgit-loit-sBjIRDC0H5Q-unsplash-1.jpg" alt="/">
                             </div>
                         </div>
                         <div class="col-6">
